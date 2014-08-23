@@ -9,9 +9,13 @@
 #include "Factory.hpp"
 LD30Game::LD30Game() {
     m_sceneTitleScreen = engine::Factory::create<TitleScreen>("assets/config/titlescreen.json", this);
+    m_sceneWorld = engine::Factory::create<World>("assets/config/world_1.json", this);
     m_scene = m_sceneTitleScreen;
 }
 
 LD30Game::~LD30Game() {
 }
 
+void LD30Game::Start(){
+    m_scene = m_sceneWorld;
+}

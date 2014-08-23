@@ -7,13 +7,13 @@
 		"index":0,
 		"animations":{
 			"default":{
-				frames: [0]
+				"frames": [0]
 			},
 			"hover":{
-				frames: [1]
+				"frames": [1]
 			},
 			"active":{
-				frames: [2]
+				"frames": [2]
 			}
 		}
 	}

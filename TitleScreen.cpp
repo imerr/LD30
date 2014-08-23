@@ -8,14 +8,17 @@
 #include "TitleScreen.hpp"
 #include "Factory.hpp"
 #include "Button.hpp"
+#include "LD30Game.hpp"
 using namespace engine;
 
-TitleScreen::TitleScreen(engine::Game* game) : Scene::Scene(game) {
-    std::cout << "A" << std::endl;
-    Button* b = engine::Factory::create<Button>("assets/config/ui_titlescreen.json", this);
+TitleScreen::TitleScreen(LD30Game* game) : Scene::Scene(game) {
+    Button* b = engine::Factory::create<Button>("assets/config/titlescreen_start.json", this);
+    
     if (b){
         m_ui.AddNode(b);
-        std::cout << "S(" << b->GetGlobalPosition().x << ", " << b->GetGlobalPosition().y << std::endl;
+        b->OnClick = [game](Button* button, sf::Vector2f){
+            game->Start();
+        };
     }
 }
 

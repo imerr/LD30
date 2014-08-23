@@ -37,6 +37,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/LD30Game.o \
 	${OBJECTDIR}/TitleScreen.o \
+	${OBJECTDIR}/World.o \
 	${OBJECTDIR}/main.o
 
 
@@ -89,6 +90,11 @@ ${OBJECTDIR}/TitleScreen.o: TitleScreen.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -I../sfml/include -I.. -I../Engine/src -I../box2d -I../extern/include -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/TitleScreen.o TitleScreen.cpp
+
+${OBJECTDIR}/World.o: World.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -I../sfml/include -I.. -I../Engine/src -I../box2d -I../extern/include -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/World.o World.cpp
 
 ${OBJECTDIR}/main.o: main.cpp 
 	${MKDIR} -p ${OBJECTDIR}

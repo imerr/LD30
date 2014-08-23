@@ -9,14 +9,15 @@
 #define	LD30GAME_HPP
 #include "Game.hpp"
 #include "TitleScreen.hpp"
-
+#include "World.hpp"
 class LD30Game : public engine::Game {
 protected:
     TitleScreen* m_sceneTitleScreen;
+    World* m_sceneWorld;
 public:
     LD30Game();
     virtual ~LD30Game();
-
+    void Start();
 };
 
 #endif	/* LD30GAME_HPP */

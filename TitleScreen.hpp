@@ -8,10 +8,10 @@
 #ifndef TITLESCREEN_HPP
 #define	TITLESCREEN_HPP
 #include "Scene.hpp"
-#include "Game.hpp"
+class LD30Game;
 class TitleScreen: public engine::Scene {
 public:
-    TitleScreen(engine::Game* game);
+    TitleScreen(LD30Game* game);
     virtual ~TitleScreen();
 private:
 
