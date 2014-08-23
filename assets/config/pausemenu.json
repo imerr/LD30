@@ -1,0 +1,7 @@
+{
+	"size":[1024,576],
+	"children":[
+		{"type":"sprite","size":[1024, 576], "sprite":{"sheet":"assets/config/ui_spritesheet.json", "index":4}},
+		{"type":"sprite","size":[380, 88], "position":[512, 100],"origin":"center", "sprite":{"sheet":"assets/config/ui_spritesheet.json", "index":8}}
+	]
+}

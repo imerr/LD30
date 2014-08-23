@@ -12,13 +12,16 @@
 using namespace engine;
 
 TitleScreen::TitleScreen(LD30Game* game) : Scene::Scene(game) {
-    Button* b = engine::Factory::create<Button>("assets/config/titlescreen_start.json", this);
-    
+    Button* b = Factory::create<Button>("assets/config/titlescreen_start.json", this);
     if (b){
         m_ui.AddNode(b);
         b->OnClick = [game](Button* button, sf::Vector2f){
             game->Start();
         };
+    }
+    SpriteNode* logo = Factory::create<SpriteNode>("assets/config/logo.json", this);
+    if (logo){
+        m_ui.AddNode(logo);
     }
 }
 

@@ -14,6 +14,8 @@ LD30Game::LD30Game() {
 }
 
 LD30Game::~LD30Game() {
+    delete m_sceneTitleScreen;
+    delete m_sceneWorld;
 }
 
 void LD30Game::Start(){

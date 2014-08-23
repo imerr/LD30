@@ -1,0 +1,73 @@
+{
+	"type":"player",// TODO: player
+	"position":[100, 400],
+	"origin":"center",
+	"size":[68,128],
+	"sprite":{
+		"sheet":{
+			"texture":"assets/images/player.png",
+			"sprites":[
+				{"left":0, "top":0, "width":17, "height":32},
+				{"left":17, "top":0, "width":17, "height":32},
+				{"left":34, "top":0, "width":17, "height":32},
+				{"left":51, "top":0, "width":17, "height":32}
+			]
+
+		},
+		"animations":{
+			"default":{
+				"frames":[0],
+				"loop":true
+			},
+			"running":{
+				"frames":[2,0,3,0],
+				"speed":0.18,
+				"loop":true
+			},
+			"jumping":{
+				"frames":[1],
+				"loop":true
+			}
+		}
+	},
+	"body" : {
+		"allowSleep":false,
+		"fixedRotation":true,
+		"linearDamping":2,
+		"shapes":[
+			{"type":"box", "width": 50, "height": 100, "origin":[0,0]},
+			{"type":"circle", "x":0, "y":39,"radius":25}
+		]
+	},
+	"children":[{
+		"size": [36,36],
+		"position":[34,22],
+		"origin":"top-center", 
+		"type":"sprite",
+		"sprite":{
+			"sheet": {
+				"texture":"assets/images/player.png",
+				"sprites":[
+					{"left":0, "top":36, "width":9, "height":9},
+					{"left":9, "top":36, "width":9, "height":9},
+					{"left":18, "top":36, "width":9, "height":9},
+					{"left":27, "top":36, "width":9, "height":9},
+					{"left":36, "top":36, "width":9, "height":9},
+					{"left":45, "top":36, "width":9, "height":9},
+					{"left":54, "top":36, "width":9, "height":9},
+					{"left":63, "top":36, "width":9, "height":9},
+					{"left":72, "top":36, "width":9, "height":9},
+					{"left":81, "top":36, "width":9, "height":9}
+				]
+			},
+			"animations":{
+				"default":{
+					"frames":[0,1,2,3,4,5,6,7,8,9],
+					"loop":true,
+					"speed":0.2
+				}
+			
+			}		
+		}
+	}]
+}

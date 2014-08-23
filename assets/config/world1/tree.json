@@ -1,0 +1,9 @@
+{
+	"type": "sprite",
+	"size": [240, 300],
+	"origin": "center",
+	"sprite": {
+		"sheet": "assets/config/world_1_spritesheet.json",
+		"index": 0
+	}
+}

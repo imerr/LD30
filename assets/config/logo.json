@@ -1,0 +1,9 @@
+{
+	"size":[336,136],
+	"position":[512, 100],
+	"origin":"center",
+	"sprite":{
+		"sheet": "assets/config/ui_spritesheet.json",
+		"index": 3
+	}
+}

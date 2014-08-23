@@ -36,6 +36,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/LD30Game.o \
+	${OBJECTDIR}/PauseMenu.o \
+	${OBJECTDIR}/Player.o \
 	${OBJECTDIR}/TitleScreen.o \
 	${OBJECTDIR}/World.o \
 	${OBJECTDIR}/main.o
@@ -85,6 +87,16 @@ ${OBJECTDIR}/LD30Game.o: LD30Game.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -I../sfml/include -I.. -I../Engine/src -I../box2d -I../extern/include -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/LD30Game.o LD30Game.cpp
+
+${OBJECTDIR}/PauseMenu.o: PauseMenu.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -I../sfml/include -I.. -I../Engine/src -I../box2d -I../extern/include -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/PauseMenu.o PauseMenu.cpp
+
+${OBJECTDIR}/Player.o: Player.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -I../sfml/include -I.. -I../Engine/src -I../box2d -I../extern/include -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Player.o Player.cpp
 
 ${OBJECTDIR}/TitleScreen.o: TitleScreen.cpp 
 	${MKDIR} -p ${OBJECTDIR}

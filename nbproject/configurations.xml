@@ -9,9 +9,15 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>LD30Game.cpp</itemPath>
+      <itemPath>LD30Game.hpp</itemPath>
+      <itemPath>PauseMenu.cpp</itemPath>
+      <itemPath>PauseMenu.hpp</itemPath>
+      <itemPath>Player.cpp</itemPath>
+      <itemPath>Player.hpp</itemPath>
       <itemPath>TitleScreen.cpp</itemPath>
       <itemPath>TitleScreen.hpp</itemPath>
       <itemPath>World.cpp</itemPath>
+      <itemPath>World.hpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -25,8 +31,6 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
-    <itemPath>LD30Game.hpp</itemPath>
-    <itemPath>World.hpp</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -86,6 +90,14 @@
       </item>
       <item path="LD30Game.hpp" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="PauseMenu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PauseMenu.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Player.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Player.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="TitleScreen.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="TitleScreen.hpp" ex="false" tool="3" flavor2="0">
@@ -120,6 +132,14 @@
       <item path="LD30Game.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="LD30Game.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PauseMenu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PauseMenu.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Player.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Player.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="TitleScreen.cpp" ex="false" tool="1" flavor2="0">
       </item>

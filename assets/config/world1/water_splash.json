@@ -1,0 +1,15 @@
+{
+	"type": "sprite",
+	"size": [28, 20],
+	"origin": "center",
+	"sprite": {
+		"sheet": "assets/config/world_1_spritesheet.json",
+		"animations":{
+			"default": {
+				"frames":[15,16,17],
+				"speed":0.15,
+				"loop":true
+			}
+		}
+	}
+}

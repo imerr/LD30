@@ -1,1 +1,208 @@
-{}
+{
+	"gravity": [0, 2],
+	"light":{
+		"enabled": true,
+		"ambient": [230, 250, 230]
+	},
+	"size": [5000, 1152],
+	"debug":false,
+	"pixelToMeter":80.0,
+	"children": [
+		{
+			"type":"sprite", 
+			"size":[5000, 1152], 
+			"position":[0,0], 
+			"sprite":{"texture":"assets/images/world_1.png"}, 
+			"body": {
+				"type":"static", 
+				"shapes":[{"type":"chain", "points":[[4, 1131], [193, 1134], [433, 1115], [576.721, 1103], [644.297, 1091], [741.297, 1094], [849.297, 1098], [974.297, 1094], [1105.47, 1094], [1182.1, 1102], [1256.28, 1109], [1341.38, 1114], [1452.26, 1121], [1574.28, 1124], [1671.78, 1113], [1747.25, 1106], [1821.26, 1099], [1901.44, 1095], [1964.25, 1088], [1991.25, 1098], [2026.25, 1090], [2063.25, 1098], [2144.22, 1094], [2204.09, 1093], [2233.83, 1093], [2235.24, 984], [2250.24, 924], [2238.24, 853], [2243.24, 839], [2363.24, 841], [2419.56, 835], [2492.21, 839], [2606.01, 843], [2700.31, 858], [2823.65, 866], [2922.5, 869], [3003.14, 869], [3111.03, 861], [3202.09, 852], [3257.12, 843], [3350.93, 848], [3461.21, 848], [3561.76, 848], [3651.47, 840], [3737.08, 837], [3818.17, 835], [3932.24, 849], [4035.06, 868], [4152.05, 875], [4268.61, 888], [4387.13, 882], [4503.83, 875], [4640.33, 873], [4754.16, 881], [4850.26, 880], [4927, 884], [4994, 882], [4996, 583]]},{ "type":"edge", "points":[[0,0],[0, 1152]]}]
+			}
+		},
+		{"childData":"assets/config/world1/platform.json", "position":[200, 500]},
+		{"childData":"assets/config/world1/platform.json", "position":[450, 400]},
+		{"childData":"assets/config/world1/platform_big.json", "position":[650, 300]},
+		{
+			 "childData" : "assets/config/world1/flower_purple.json",
+			 "position" : [ 238, 1106 ]
+		  },
+		  {
+			 "childData" : "assets/config/world1/flower_red.json",
+			 "position" : [ 134, 1117 ]
+		  },
+		  {
+			 "childData" : "assets/config/world1/flower_pink.json",
+			 "position" : [ 617, 1088 ]
+		  },
+		  {
+			 "childData" : "assets/config/world1/flower_yellow.json",
+			 "position" : [ 731, 1075 ]
+		  },
+		  {
+			 "childData" : "assets/config/world1/flower_light-blue.json",
+			 "position" : [ 977, 1077 ]
+		  },
+		  {
+			 "childData" : "assets/config/world1/flower_cyan.json",
+			 "position" : [ 1631, 1104 ]
+		  },
+		  {
+			 "childData" : "assets/config/world1/flower_orange.json",
+			 "position" : [ 1845, 1076 ]
+		  },
+		  {
+			 "childData" : "assets/config/world1/tree.json",
+			 "position" : [ 360, 962 ]
+		  },
+		  {
+			 "childData" : "assets/config/world1/tree.json",
+			 "position" : [ 963, 937 ]
+		  },
+		  {
+			 "childData" : "assets/config/world1/platform_water.json",
+			 "position" : [ 2138, 876 ]
+		  },
+		  {
+			 "childData" : "assets/config/world1/platform_water.json",
+			 "position" : [ 2018, 986 ]
+		  },
+		  {
+			 "childData" : "assets/config/world1/platform_water.json",
+			 "position" : [ 2235, 514 ]
+		  },{
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 1956, 1015 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 1956, 1033 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 1956, 1053 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 1956, 1067 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2076, 905 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2076, 926 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2076, 944 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2076, 954 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2173, 543 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2173, 562 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2173, 582 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2173, 603 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2173, 623 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2173, 642 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2173, 661 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2173, 681 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2173, 701 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2173, 720 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2173, 741 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2173, 760 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2173, 778 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2173, 798 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2173, 814 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2173, 833 ]
+      },
+	  {
+         "childData" : "assets/config/world1/water_splash.json",
+         "position" : [ 2173, 846 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_splash.json",
+         "position" : [ 2076, 956 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_splash.json",
+         "position" : [ 1956, 1073 ]
+      },
+	  {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2173, 730 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2173, 592 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_line.json",
+         "position" : [ 2076, 916 ]
+      },
+	  
+      {
+         "childData" : "assets/config/world1/mushroom_red.json",
+         "position" : [ 2436, 826 ]
+      },
+      {
+         "childData" : "assets/config/world1/mushroom_red.json",
+         "position" : [ 1999, 1083 ]
+      },
+      {
+         "childData" : "assets/config/world1/mushroom_red.json",
+         "position" : [ 914, 1078 ]
+      },
+		// player at bottom, always on top
+		{"childData":"assets/config/player.json"}
+		
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"type": "sprite",
+	"size": [124, 40],
+	"origin": "center",
+	"sprite": {
+		"sheet": "assets/config/world_1_spritesheet.json",
+		"index": 11
+	},
+	"body": {
+		"type":"static",
+		"shapes": [
+			{"type": "box", "width":120, "height": 35}
+		]
+	}
+}
