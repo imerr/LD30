@@ -1,0 +1,20 @@
+{
+	"size":[195,50],
+	"position":[512, 408],
+	"origin":"top-center",
+	"sprite":{
+		"sheet": "assets/config/ui_spritesheet.json",
+		"index":0,
+		"animations":{
+			"default":{
+				frames: [0]
+			},
+			"hover":{
+				frames: [1]
+			},
+			"active":{
+				frames: [2]
+			}
+		}
+	}
+}

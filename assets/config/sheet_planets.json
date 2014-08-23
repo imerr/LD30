@@ -1,0 +1,41 @@
+{
+	"texture": "assets/images/planets.png",
+	"sprites":[
+		// SUN
+		{"top":0, "left":0, "width":10, "height":10},
+		{"top":0, "left":10, "width":10, "height":10},
+		{"top":0, "left":20, "width":10, "height":10},
+		{"top":0, "left":30, "width":10, "height":10},
+		{"top":0, "left":40, "width":10, "height":10},
+		// blue thing
+		{"top":10, "left":0, "width":10, "height":10},
+		{"top":10, "left":10, "width":10, "height":10},
+		{"top":10, "left":20, "width":10, "height":10},
+		{"top":10, "left":30, "width":10, "height":10},
+		{"top":10, "left":40, "width":10, "height":10},
+		// red thing
+		{"top":20, "left":0, "width":10, "height":10},
+		{"top":20, "left":10, "width":10, "height":10},
+		{"top":20, "left":20, "width":10, "height":10},
+		{"top":20, "left":30, "width":10, "height":10},
+		{"top":20, "left":40, "width":10, "height":10},
+		// green thing
+		{"top":30, "left":0, "width":10, "height":10},
+		{"top":30, "left":10, "width":10, "height":10},
+		{"top":30, "left":20, "width":10, "height":10},
+		{"top":30, "left":30, "width":10, "height":10},
+		{"top":30, "left":40, "width":10, "height":10},
+		// purple thing
+		{"top":40, "left":0, "width":10, "height":10},
+		{"top":40, "left":10, "width":10, "height":10},
+		{"top":40, "left":20, "width":10, "height":10},
+		{"top":40, "left":30, "width":10, "height":10},
+		{"top":40, "left":40, "width":10, "height":10},
+		// coookieee
+		{"top":50, "left":0, "width":10, "height":10},
+		{"top":50, "left":10, "width":10, "height":10},
+		{"top":50, "left":20, "width":10, "height":10},
+		{"top":50, "left":30, "width":10, "height":10},
+		{"top":50, "left":40, "width":10, "height":10}
+	]
+}

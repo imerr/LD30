@@ -1,0 +1,16 @@
+{
+	"type": "node",
+	"children" : [
+		{	"childData":{
+			"type":"sprite",
+			"size":[195,50],
+			"origin":"top-center",
+			"position":[512, 408],
+			"sprite":{
+				"sheet": "assets/config/ui_spritesheet.json",
+				"index":0
+			}
+			}
+		}
+	]
+}

@@ -1,0 +1,150 @@
+{
+	"gravity": [0,0],
+	"debug":false,
+	"light": {
+		"enabled":true,
+		"ambient": [120,120,160]
+	},
+	"children": [
+		{ // "sun"
+			"type": "sprite",
+			"opaque":true,
+			"position":[512, 288],
+			"size":[100,100],
+			"origin":"center",
+			"sprite":{
+				"sheet": "assets/config/sheet_planets.json",
+				"index": 0,
+				"animations": {
+					"default": {
+						"frames": [0,1,2,3,4],
+						"speed":0.1,
+						"looping": true
+					}
+				}
+			},
+			"children":[{"type":"light", "position":[50,50],"radius":600, "color":[150,150,100]}]
+			
+		},
+		{ // blue thing
+			"type": "sprite",
+			"opaque":false,
+			"position":[512, 288],
+			"size":[30,30],
+			"origin":[-135,15],
+			"sprite":{
+				"sheet": "assets/config/sheet_planets.json",
+				"index": 5,
+				"animations": {
+					"default": {
+						"frames": [5,6,7,8,9],
+						"speed":0.15,
+						"looping": true
+					}
+				}
+			},
+			"body" : {
+				"angularVelocity": 10,
+				"shapes": [
+					{"type": "circle", "radius": 16, "x": 150, "y": 0}
+				]
+			}
+		},
+		{ // red thing
+			"type": "sprite",
+			"opaque":false,
+			"position":[512, 288],
+			"size":[50,50],
+			"origin":[-175,-75],
+			"sprite":{
+				"sheet": "assets/config/sheet_planets.json",
+				"index": 5,
+				"animations": {
+					"default": {
+						"frames": [10,11,12,13,14],
+						"speed":0.3,
+						"looping": true
+					}
+				}
+			},
+			"body" : {
+				"angularVelocity": 20,
+				"shapes": [
+					{"type": "circle", "radius": 26, "x": 200, "y": 100}
+				]
+			}
+		},
+		{ // green thing
+			"type": "sprite",
+			"opaque":false,
+			"position":[512, 288],
+			"size":[15,15],
+			"origin":[-67.5,57.5],
+			"sprite":{
+				"sheet": "assets/config/sheet_planets.json",
+				"index": 5,
+				"animations": {
+					"default": {
+						"frames": [15,16,17,18,19],
+						"speed":0.05,
+						"looping": true
+					}
+				}
+			},
+			"body" : {
+				"angularVelocity": 50,
+				"shapes": [
+					{"type": "circle", "radius": 7.5, "x": 75, "y": -50}
+				]
+			}
+		},
+		{ // green thing
+			"type": "sprite",
+			"opaque":false,
+			"position":[512, 288],
+			"size":[100,100],
+			"origin":[-200,250],
+			"sprite":{
+				"sheet": "assets/config/sheet_planets.json",
+				"index": 5,
+				"animations": {
+					"default": {
+						"frames": [20,21,22,23,24],
+						"speed":0.4,
+						"looping": true
+					}
+				}
+			},
+			"body" : {
+				"angularVelocity": 5,
+				"shapes": [
+					{"type": "circle", "radius": 50, "x": 250, "y": -200}
+				]
+			}
+		},
+		{ // cookie <3
+			"type": "sprite",
+			"opaque":false,
+			"position":[512, 288],
+			"size":[40,40],
+			"origin":[370,-330],
+			"sprite":{
+				"sheet": "assets/config/sheet_planets.json",
+				"animations": {
+					"default": {
+						"frames": [25,26,27,28,29],
+						"speed":0.2,
+						"looping": true
+					}
+				}
+			},
+			"body" : {
+				"angularVelocity":3,
+				"shapes": [
+					{"type": "circle", "radius": 22, "x": -350, "y": 350}
+				]
+			}
+		}
+		
+	]
+}
