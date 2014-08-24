@@ -1,0 +1,68 @@
+{
+	"gravity": [0, 2],
+	"light":{
+		"enabled": true,
+		"ambient": [230, 150, 150]
+	},
+	"size": [2520, 580],
+	"debug":false,
+	"pixelToMeter":80.0,
+	"children": [
+		{
+			"type":"enemy", 
+			"size":[2520, 580], 
+			"position":[0,0], 
+			"sprite":{"texture":"assets/images/world_3.png"}, 
+			"body": {
+				"type":"static", 
+				"shapes":[{"type":"edge", "points":[[0, 520],[2520,520]]},{"type":"edge", "points":[[0,0], [0,580]]},{"type":"edge", "points":[[2520,0], [2520,580]]}] 
+			}
+		},
+		{
+         "childData" : "assets/config/world_3_platform.json",
+         "position" : [ 80, 484 ]
+      },
+      {
+         "childData" : "assets/config/world_3_platform.json",
+         "position" : [ 280, 430 ]
+      },
+      {
+         "childData" : "assets/config/world_3_platform.json",
+         "position" : [ 544, 373 ]
+      },
+      {
+         "childData" : "assets/config/world_3_platform.json",
+         "position" : [ 917, 440 ]
+      },
+      {
+         "childData" : "assets/config/world_3_platform.json",
+         "position" : [ 1404, 500 ]
+      },
+      {
+         "childData" : "assets/config/world_3_platform.json",
+         "position" : [ 1700, 416 ]
+      },
+      {
+         "childData" : "assets/config/world_3_platform.json",
+         "position" : [ 1970, 339 ]
+      },
+      {
+         "childData" : "assets/config/world_3_platform.json",
+         "position" : [ 2108, 315 ]
+      },
+      {
+         "childData" : "assets/config/world_3_platform.json",
+         "position" : [ 2259, 313 ]
+      },
+      {
+         "childData" : "assets/config/world_3_platform.json",
+         "position" : [ 2403, 291 ]
+      }, 
+	  {
+         "childData" : "assets/config/world_3_portal.json",
+         "position" : [ 2410, 191 ]
+      },
+		// player at bottom, always on top
+		{ "position" : [ 42, 236 ], "childData":"assets/config/player.json"}
+	]
+}

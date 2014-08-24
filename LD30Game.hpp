@@ -13,11 +13,18 @@
 class LD30Game : public engine::Game {
 protected:
     TitleScreen* m_sceneTitleScreen;
-    World* m_sceneWorld;
+    World* m_sceneWorld1;
+    World* m_sceneWorld2;
+    World* m_sceneWorld3;
+    World* m_sceneWorld4;
+    bool m_next;
+    bool m_nextDel;
 public:
     LD30Game();
     virtual ~LD30Game();
     void Start();
+    void NextWorld();
+    virtual void OnUpdate();
 };
 
 #endif	/* LD30GAME_HPP */

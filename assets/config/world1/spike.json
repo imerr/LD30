@@ -1,0 +1,13 @@
+{
+	"type": "enemy",
+	"size": [24, 20],
+	"origin": "center",
+	"sprite": {
+		"sheet": "assets/config/world_1_spritesheet.json",
+		"index": 19
+	},
+	"body": {
+		"type":"static",
+		"shapes":[{"type":"box", "width":22, "height":18}]
+	}
+}

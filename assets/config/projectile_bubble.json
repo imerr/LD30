@@ -1,0 +1,32 @@
+{
+	"size": [32, 28],
+	"origin":"center",
+	"type":"projectile",
+	"sprite": {
+		"sheet":{
+			"texture":"assets/images/player.png",
+			"sprites":[
+				{"left":27, "top":47, "width":8, "height":7},
+				{"left":35, "top":47, "width":8, "height":7},
+				{"left":43, "top":47, "width":8, "height":7},
+				{"left":51, "top":47, "width":8, "height":7},
+				{"left":59, "top":47, "width":8, "height":7}
+			]
+		},
+		"animations":{
+			"explode": {
+				"frames": [1,2,3,4],
+				"speed": 0.05,
+				"loop":false
+			}
+		}
+	},
+	"body": {
+		"gravityScale":0,
+		"bullet":true,
+		"linearVelocity": [100,-10],
+		"shapes": [
+			{"type": "box", "width": 32, "height": 28}
+		]
+	}
+}

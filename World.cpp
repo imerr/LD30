@@ -24,12 +24,10 @@ void EscHandler::handle(const sf::Event::KeyEvent& key) {
 }
 
 void ChainMouse::handle(const sf::Event::MouseButtonEvent& e) {
-    std::cout << "Click" << std::endl;
     auto m = m_world->GetGame()->GetMousePosition();
     if (e.button == sf::Mouse::Left && m_current) {
         m_current->SetPosition((int)m.x, (int)m.y);
     }else if (e.button == sf::Mouse::Right) {
-        std::cout << "Right" << std::endl;
         if (m_current) {
             m_root["children"][m_root["children"].size()]= Json::objectValue;;
             m_root["children"][m_root["children"].size() - 1]["childData"] = m_config;
@@ -38,21 +36,24 @@ void ChainMouse::handle(const sf::Event::MouseButtonEvent& e) {
         }
         m_current = Factory::CreateChildFromFile(m_config, m_world);
         if (m_current) {
-            std::cout << "Added" << m_current << std::endl;
             m_current->SetPosition((int)m.x, (int)m.y);
             m_world->AddNode(m_current);
         }else{
-            std::cout << "Could not create thing" << std::endl;
         }
-    }else{
-        std::cout << "Weird button D:" << std::endl;
+    }else if (e.button == sf::Mouse::Middle){
+        m_current->Delete();
+        m_current = nullptr;
     }
 }
 
 World::World(LD30Game* game) : engine::Scene::Scene(game), m_paused(false), m_escHandler(this), m_cm(this) {
     m_game->OnKeyDown.AddHandler(&m_escHandler);
-    m_game->OnMouseClick.AddHandler(&m_cm);
+    //m_game->OnMouseClick.AddHandler(&m_cm);
     m_pauseMenu = Factory::create<PauseMenu>("assets/config/pausemenu.json", this);
+    m_portal = Factory::create<SpriteNode>("assets/config/world1/portal.json", this);
+    if (m_portal){
+        AddNode(m_portal);
+    }
 }
 
 World::~World() {
@@ -80,6 +81,10 @@ void World::draw(sf::RenderTarget& target, sf::RenderStates states, float delta)
         m_pauseMenu->setPosition(view.getCenter().x - (view.getSize().x / 2), view.getCenter().y - (view.getSize().y / 2));
         m_pauseMenu->draw(target, states, delta);
     }
+}
+
+Node* World::GetPortal() const {
+    return m_portal;
 }
 
 void World::TogglePause() {

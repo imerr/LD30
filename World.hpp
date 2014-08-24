@@ -34,7 +34,7 @@ private:
 public:
 
     ChainMouse(World* world) {
-        m_config = "assets/config/world1/mushroom_red.json";
+        m_config = "assets/config/explosion_loop.json";
         m_world = world;
         m_root["children"] = Json::arrayValue;
         m_current = nullptr;
@@ -42,7 +42,6 @@ public:
     }
 
     virtual ~ChainMouse() {
-        std::cout << "Writing" << std::endl;
         std::ofstream d;
         d.open("out.json");
         if (!d.good()) {
@@ -62,12 +61,14 @@ protected:
     EscHandler m_escHandler;
     ChainMouse m_cm;
     PauseMenu* m_pauseMenu;
+    Node* m_portal;
 public:
     World(LD30Game* game);
     virtual ~World();
     virtual void update(sf::Time interval);
     void TogglePause();
     virtual void draw(sf::RenderTarget& target, sf::RenderStates states, float delta);
+    Node* GetPortal() const;
 
 
 };

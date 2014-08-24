@@ -1,0 +1,22 @@
+{
+	"type":"sprite",
+	"size": [80, 176],
+	"origin":"center",
+	"identifier": "portal",
+	"sprite": {
+		"sheet":"assets/config/world_1_spritesheet.json",
+		"index":29,
+		"animations":{
+			"default":{
+				"frames": [29,30,31,32],
+				"speed": 0.1
+			}
+		}
+	},
+	"body":{
+		"type":"static",
+		"shapes":[
+			{"type":"box", "width":30, "height": 86}
+		]
+	}
+}

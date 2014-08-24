@@ -15,7 +15,7 @@
 			"sprite":{"texture":"assets/images/world_1.png"}, 
 			"body": {
 				"type":"static", 
-				"shapes":[{"type":"chain", "points":[[4, 1131], [193, 1134], [433, 1115], [576.721, 1103], [644.297, 1091], [741.297, 1094], [849.297, 1098], [974.297, 1094], [1105.47, 1094], [1182.1, 1102], [1256.28, 1109], [1341.38, 1114], [1452.26, 1121], [1574.28, 1124], [1671.78, 1113], [1747.25, 1106], [1821.26, 1099], [1901.44, 1095], [1964.25, 1088], [1991.25, 1098], [2026.25, 1090], [2063.25, 1098], [2144.22, 1094], [2204.09, 1093], [2233.83, 1093], [2235.24, 984], [2250.24, 924], [2238.24, 853], [2243.24, 839], [2363.24, 841], [2419.56, 835], [2492.21, 839], [2606.01, 843], [2700.31, 858], [2823.65, 866], [2922.5, 869], [3003.14, 869], [3111.03, 861], [3202.09, 852], [3257.12, 843], [3350.93, 848], [3461.21, 848], [3561.76, 848], [3651.47, 840], [3737.08, 837], [3818.17, 835], [3932.24, 849], [4035.06, 868], [4152.05, 875], [4268.61, 888], [4387.13, 882], [4503.83, 875], [4640.33, 873], [4754.16, 881], [4850.26, 880], [4927, 884], [4994, 882], [4996, 583]]},{ "type":"edge", "points":[[0,0],[0, 1152]]}]
+				"shapes":[{"type":"chain", "points":[[0,0],[25, 1131], [193, 1134], [433, 1115], [576.721, 1103], [644.297, 1091], [741.297, 1094], [849.297, 1098], [974.297, 1094], [1105.47, 1094], [1182.1, 1102], [1256.28, 1109], [1341.38, 1114], [1452.26, 1121], [1574.28, 1124], [1671.78, 1113], [1747.25, 1106], [1821.26, 1099], [1901.44, 1095], [1964.25, 1088], [1991.25, 1098], [2026.25, 1090], [2063.25, 1098], [2144.22, 1094], [2204.09, 1093], [2233.83, 1093], [2235.24, 984], [2250.24, 924], [2238.24, 853], [2243.24, 839], [2363.24, 841], [2419.56, 835], [2492.21, 839], [2606.01, 843], [2700.31, 858], [2823.65, 866], [2922.5, 869], [3003.14, 869], [3111.03, 861], [3202.09, 852], [3257.12, 843], [3350.93, 848], [3461.21, 848], [3561.76, 848], [3651.47, 840], [3737.08, 837], [3818.17, 835], [3932.24, 849], [4035.06, 868], [4152.05, 875], [4268.61, 888], [4387.13, 882], [4503.83, 875], [4640.33, 873], [4754.16, 881], [4850.26, 880], [4927, 884], [4994, 882], [4996, 583]]},{ "type":"edge", "points":[[0,0],[0, 1152]]}]
 			}
 		},
 		{"childData":"assets/config/world1/platform.json", "position":[200, 500]},
@@ -68,7 +68,20 @@
 		  {
 			 "childData" : "assets/config/world1/platform_water.json",
 			 "position" : [ 2235, 514 ]
-		  },{
+		  },
+		  {
+         "childData" : "assets/config/world1/platform.json",
+         "position" : [ 1115, 379 ]
+      },
+      {
+         "childData" : "assets/config/world1/platform.json",
+         "position" : [ 886, 345 ]
+      },
+      {
+         "childData" : "assets/config/world1/platform.json",
+         "position" : [ 248, 317 ]
+      },
+		  {
          "childData" : "assets/config/world1/water_line.json",
          "position" : [ 1956, 1015 ]
       },
@@ -177,6 +190,66 @@
          "position" : [ 1956, 1073 ]
       },
 	  {
+         "childData" : "assets/config/world1/water_hline.json",
+         "position" : [ 2061, 959 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_hline.json",
+         "position" : [ 2040, 959 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_hline.json",
+         "position" : [ 2022, 959 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_hline.json",
+         "position" : [ 2004, 959 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_hline.json",
+         "position" : [ 1983, 959 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_hline.json",
+         "position" : [ 1974, 959 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_hline.json",
+         "position" : [ 2160, 849 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_hline.json",
+         "position" : [ 2141, 849 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_hline.json",
+         "position" : [ 2129, 849 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_hline.json",
+         "position" : [ 2108, 849 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_hline.json",
+         "position" : [ 2094, 849 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_hline.json",
+         "position" : [ 2192, 487 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_hline.json",
+         "position" : [ 2209, 487 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_hline.json",
+         "position" : [ 2225, 487 ]
+      },
+      {
+         "childData" : "assets/config/world1/water_hline.json",
+         "position" : [ 2246, 487 ]
+      },
+	  {
          "childData" : "assets/config/world1/water_line.json",
          "position" : [ 2173, 730 ]
       },
@@ -201,8 +274,184 @@
          "childData" : "assets/config/world1/mushroom_red.json",
          "position" : [ 914, 1078 ]
       },
+	  {
+         "childData" : "assets/config/world1/mushroom_brown.json",
+         "position" : [ 2208, 1074 ]
+      },
+      {
+         "childData" : "assets/config/world1/mushroom_brown.json",
+         "position" : [ 805, 1072 ]
+      },
+      {
+         "childData" : "assets/config/world1/mushroom_brown.json",
+         "position" : [ 348, 1100 ]
+      },
+	  {
+         "childData" : "assets/config/world1/platform.json",
+         "position" : [ 2576, 745 ]
+      },
+      {
+         "childData" : "assets/config/world1/platform.json",
+         "position" : [ 2343, 643 ]
+      },
+	  {
+         "childData" : "assets/config/world1/platform_big.json",
+         "position" : [ 1854, 455 ]
+      },
+      {
+         "childData" : "assets/config/world1/platform_big.json",
+         "position" : [ 1435, 452 ]
+      },
+	  {
+         "childData" : "assets/config/world1/tree.json",
+         "position" : [ 1877, 287 ]
+      },
+      {
+         "childData" : "assets/config/world1/tree.json",
+         "position" : [ 1470, 286 ]
+      },
+      {
+         "childData" : "assets/config/world1/tree.json",
+         "position" : [ 2830, 710 ]
+      },
+      {
+         "childData" : "assets/config/world1/tree.json",
+         "position" : [ 3639, 693 ]
+      },
+      {
+         "childData" : "assets/config/world1/tree.json",
+         "position" : [ 4154, 722 ]
+      },
+      {
+         "childData" : "assets/config/world1/tree.json",
+         "position" : [ 4851, 720 ]
+      },
+      {
+         "childData" : "assets/config/world1/tree.json",
+         "position" : [ 4601, 717 ]
+      },
+	  {
+         "childData" : "assets/config/world1/mushroom_brown.json",
+         "position" : [ 2841, 848 ]
+      },
+      {
+         "childData" : "assets/config/world1/mushroom_brown.json",
+         "position" : [ 3913, 829 ]
+      },
+      {
+         "childData" : "assets/config/world1/mushroom_brown.json",
+         "position" : [ 4445, 855 ]
+      },
+      {
+         "childData" : "assets/config/world1/mushroom_brown.json",
+         "position" : [ 4945, 857 ]
+      },
+	  {
+         "childData" : "assets/config/world1/mushroom_red.json",
+         "position" : [ 1227, 1080 ]
+      },
+      {
+         "childData" : "assets/config/world1/mushroom_red.json",
+         "position" : [ 1710, 1087 ]
+      },
+      {
+         "childData" : "assets/config/world1/mushroom_red.json",
+         "position" : [ 2230, 487 ]
+      },
+      {
+         "childData" : "assets/config/world1/mushroom_red.json",
+         "position" : [ 3244, 828 ]
+      },
+      {
+         "childData" : "assets/config/world1/mushroom_red.json",
+         "position" : [ 3641, 824 ]
+      },
+      {
+         "childData" : "assets/config/world1/mushroom_red.json",
+         "position" : [ 4144, 860 ]
+      },
+      {
+         "childData" : "assets/config/world1/mushroom_red.json",
+         "position" : [ 4622, 854 ]
+      },
+	  {
+         "childData" : "assets/config/world1/flower_red.json",
+         "position" : [ 1393, 1099 ]
+      },
+      {
+         "childData" : "assets/config/world1/flower_blue.json",
+         "position" : [ 2045, 959 ]
+      },
+      {
+         "childData" : "assets/config/world1/flower_blue.json",
+         "position" : [ 3373, 827 ]
+      },
+      {
+         "childData" : "assets/config/world1/flower_blue.json",
+         "position" : [ 4860, 858 ]
+      },
+	  {
+         "childData" : "assets/config/world1/flower_cyan.json",
+         "position" : [ 458, 1092 ]
+      },
+      {
+         "childData" : "assets/config/world1/flower_purple.json",
+         "position" : [ 2144, 1073 ]
+      },
+      {
+         "childData" : "assets/config/world1/flower_cyan.json",
+         "position" : [ 1843, 429 ]
+      },
+      {
+         "childData" : "assets/config/world1/flower_red.json",
+         "position" : [ 3721, 820 ]
+      },
+      {
+         "childData" : "assets/config/world1/flower_cyan.json",
+         "position" : [ 4314, 872 ]
+      },
+	  {
+         "childData" : "assets/config/world1/flower_orange.json",
+         "position" : [ 1540, 1103 ]
+      },
+      {
+         "childData" : "assets/config/world1/flower_pink.json",
+         "position" : [ 2349, 617 ]
+      },
+      {
+         "childData" : "assets/config/world1/flower_orange.json",
+         "position" : [ 3072, 849 ]
+      },
+      {
+         "childData" : "assets/config/world1/flower_yellow.json",
+         "position" : [ 4706, 855 ]
+      },
+		{
+         "childData" : "assets/config/world1/bulb.json",
+         "position" : [ 1342, 413 ]
+      },
+      {
+         "childData" : "assets/config/world1/bulb.json",
+         "position" : [ 1435, 411 ]
+      },
+      {
+         "childData" : "assets/config/world1/bulb.json",
+         "position" : [ 1531, 413 ]
+      },
+	  {
+         "childData" : "assets/config/world1/bulb.json",
+         "position" : [ 2712, 829 ]
+      },
+	  {
+         "childData" : "assets/config/upgrade_bubble.json",
+         "position" : [ 4695, 836 ]
+      },
+		{
+			"childData" : "assets/config/world1/portal.json",
+			"position" : [ 587, 200 ]
+		},
 		// player at bottom, always on top
-		{"childData":"assets/config/player.json"}
+		{ "position" : [ 111, 1119 ], "childData":"assets/config/player.json"}
 		
 	]
 }

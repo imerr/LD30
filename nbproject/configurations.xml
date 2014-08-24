@@ -8,14 +8,21 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Enemy.cpp</itemPath>
+      <itemPath>Enemy.hpp</itemPath>
+      <itemPath>ExtraNodeTypes.hpp</itemPath>
       <itemPath>LD30Game.cpp</itemPath>
       <itemPath>LD30Game.hpp</itemPath>
       <itemPath>PauseMenu.cpp</itemPath>
       <itemPath>PauseMenu.hpp</itemPath>
       <itemPath>Player.cpp</itemPath>
       <itemPath>Player.hpp</itemPath>
+      <itemPath>Projectile.cpp</itemPath>
+      <itemPath>Projectile.hpp</itemPath>
       <itemPath>TitleScreen.cpp</itemPath>
       <itemPath>TitleScreen.hpp</itemPath>
+      <itemPath>Upgrade.cpp</itemPath>
+      <itemPath>Upgrade.hpp</itemPath>
       <itemPath>World.cpp</itemPath>
       <itemPath>World.hpp</itemPath>
       <itemPath>main.cpp</itemPath>
@@ -86,6 +93,12 @@
           </linkerLibItems>
         </linkerTool>
       </compileType>
+      <item path="Enemy.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Enemy.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ExtraNodeTypes.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="LD30Game.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="LD30Game.hpp" ex="false" tool="3" flavor2="0">
@@ -98,9 +111,17 @@
       </item>
       <item path="Player.hpp" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Projectile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Projectile.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="TitleScreen.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="TitleScreen.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Upgrade.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Upgrade.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="World.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -129,6 +150,12 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Enemy.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Enemy.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ExtraNodeTypes.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="LD30Game.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="LD30Game.hpp" ex="false" tool="3" flavor2="0">
@@ -141,9 +168,17 @@
       </item>
       <item path="Player.hpp" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Projectile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Projectile.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="TitleScreen.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="TitleScreen.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Upgrade.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Upgrade.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="World.cpp" ex="false" tool="1" flavor2="0">
       </item>

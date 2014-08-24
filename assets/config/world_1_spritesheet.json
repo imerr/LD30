@@ -25,7 +25,27 @@
 		{"left":8, "top":38, "width":7, "height":5},
 		{"left":15, "top":38, "width":7, "height":5},
 		// floor tiles
-		{"left":0, "top":48, "width":16, "height":7}
-		
+		{"left":0, "top":48, "width":16, "height":7},
+		// spike
+		{"left":36, "top":10, "width":7, "height":5},
+		// bulb
+		{"left":48, "top":0, "width":12, "height":11},
+		{"left":60, "top":0, "width":12, "height":11}, 
+		// bulb seed/projectile
+		{"left":48, "top":11, "width":3, "height":4},
+		// water horizontal
+		{"left":22, "top":38, "width":7, "height":5}, // 23
+		// portal
+		{"left":32, "top":25, "width":10, "height":22},
+		{"left":42, "top":25, "width":10, "height":22},
+		{"left":52, "top":25, "width":10, "height":22},
+		{"left":62, "top":25, "width":10, "height":22},
+		// w3 
+		{"left":0, "top":55, "width":31, "height":7}, // small
+		// portal
+		{"left":32, "top":47, "width":10, "height":21},
+		{"left":42, "top":47, "width":10, "height":21},
+		{"left":52, "top":47, "width":10, "height":21},
+		{"left":62, "top":47, "width":10, "height":21}
 	]
 }
